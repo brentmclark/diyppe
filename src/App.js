@@ -15,8 +15,28 @@ export default function App() {
             <li>
               <Link to="/">Home</Link>
             </li>
+            <NavSectionHeader>Face Masks</NavSectionHeader>
             <li>
               <Link to="/pattern-1">Pattern 1</Link>
+            </li>
+            <li>
+              <a
+                href="https://freesewing.org/docs/patterns/fu/instructions/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Pattern 2
+              </a>
+            </li>
+            <NavSectionHeader>Face Shields</NavSectionHeader>
+            <li>
+              <a
+                href="https://blog.prusaprinters.org/from-design-to-mass-3d-printing-of-medical-shields-in-three-days/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Prusa Blog
+              </a>
             </li>
           </ul>
         </Nav>
@@ -52,4 +72,10 @@ const BodyContainer = styled.div`
   padding: 30px;
   overflow: scroll;
   padding: 0 0 0 230px;
+`;
+
+const NavSectionHeader = styled.li`
+  padding: 10px 0;
+  margin: 10px 0 0;
+  border-top: 1px solid #ccc;
 `;
