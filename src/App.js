@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./pages/home";
 import PatternOne from "./pages/pattern-1";
 import CrowdsourcingSheet from "./pages/crowdsourcing-sheet";
+import TweetEmbed from "react-tweet-embed";
 
 export default function App() {
   return (
@@ -43,10 +44,16 @@ export default function App() {
             <li>
               <Link to="/crowdsourcing-sheet">Crowdsourcing Sheet</Link>
             </li>
+            <li>
+              <Link to="/fabric-holder">Fabric Holder</Link>
+            </li>
           </ul>
         </Nav>
         <BodyContainer>
           <Switch>
+            <Route path="/fabric-holder">
+              <TweetEmbed id="1241801897561989120" />
+            </Route>
             <Route path="/crowdsourcing-sheet">
               <CrowdsourcingSheet />
             </Route>
