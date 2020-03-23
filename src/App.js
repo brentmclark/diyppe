@@ -72,6 +72,7 @@ const BodyContainer = styled.div`
   padding: 30px;
   overflow: scroll;
   padding: 0 0 0 230px;
+  max-width: 900px;
 `;
 
 const NavSectionHeader = styled.li`
