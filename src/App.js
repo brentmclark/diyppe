@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Home from "./pages/home";
 import PatternOne from "./pages/pattern-1";
+import CrowdsourcingSheet from "./pages/crowdsourcing-sheet";
 
 export default function App() {
   return (
@@ -38,10 +39,17 @@ export default function App() {
                 Prusa Blog
               </a>
             </li>
+            <NavSectionHeader>3D Printing</NavSectionHeader>
+            <li>
+              <Link to="/crowdsourcing-sheet">Crowdsourcing Sheet</Link>
+            </li>
           </ul>
         </Nav>
         <BodyContainer>
           <Switch>
+            <Route path="/crowdsourcing-sheet">
+              <CrowdsourcingSheet />
+            </Route>
             <Route path="/pattern-1">
               <PatternOne />
             </Route>
