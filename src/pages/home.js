@@ -14,6 +14,10 @@ export default function Home(props) {
 
       <h2>IMPORTANT!!!</h2>
       <TweetEmbed id="1241611801390874624" />
+      <br />
+      <hr />
+      <br />
+      <TweetEmbed id="1241627375395155968" />
     </div>
   );
 }
