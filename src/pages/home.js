@@ -1,4 +1,5 @@
 import React from "react";
+import TweetEmbed from "react-tweet-embed";
 
 export default function Home(props) {
   return (
@@ -10,6 +11,9 @@ export default function Home(props) {
         PPE yourself.
       </p>
       <hr />
+
+      <h2>IMPORTANT!!!</h2>
+      <TweetEmbed id="1241611801390874624" />
     </div>
   );
 }
