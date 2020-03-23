@@ -6,9 +6,16 @@ export default function PatternOne(props) {
     <div>
       <h1>DIY Hospital mask</h1>
       <p>
-        Thanks to @marklewismd on Twitter for his great instructions on
-        constructing a mask with elastic earloops and a pocket to slide in a
-        filter.
+        Thanks to{" "}
+        <a
+          href="https://twitter.com/marklewismd"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @marklewismd
+        </a>{" "}
+        on Twitter for his great instructions on constructing a mask with
+        elastic earloops and a pocket to slide in a filter.
       </p>
       <p>See the original tweet here:</p>
       <a
