@@ -2,11 +2,12 @@ import React from "react";
 import "./styles.css";
 import styled from "styled-components";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import TweetEmbed from "react-tweet-embed";
 
 import Home from "./pages/home";
 import PatternOne from "./pages/pattern-1";
 import CrowdsourcingSheet from "./pages/crowdsourcing-sheet";
-import TweetEmbed from "react-tweet-embed";
+import TwitterAccounts from "./pages/twitter-accounts";
 
 export default function App() {
   return (
@@ -47,10 +48,17 @@ export default function App() {
             <li>
               <Link to="/fabric-holder">Fabric Holder</Link>
             </li>
+            <NavSectionHeader>Other Resources</NavSectionHeader>
+            <li>
+              <Link to="/twitter-accounts">Twitter Accounts</Link>
+            </li>
           </ul>
         </Nav>
         <BodyContainer>
           <Switch>
+            <Route path="/twitter-accounts">
+              <TwitterAccounts />
+            </Route>
             <Route path="/fabric-holder">
               <TweetEmbed id="1241801897561989120" />
             </Route>
