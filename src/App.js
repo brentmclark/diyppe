@@ -54,7 +54,7 @@ const PageContainer = styled.div`
 
 const BodyContainer = styled.div`
   overflow: auto;
-  padding: 30px;
+  padding: 60px 30px;
   max-width: 900px;
 
   @media (min-width: 1000px) {
@@ -66,6 +66,8 @@ const NavBar = styled.div`
   background: #000;
   height: 40px;
   width: 100%;
+  position: fixed;
+  z-index: 1000;
 
   @media (min-width: 1000px) {
     display: none;

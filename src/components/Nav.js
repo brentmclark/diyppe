@@ -71,6 +71,7 @@ const NavContainer = styled.nav`
   position: fixed;
   transform: translateX(-100%);
   background: #fff;
+  z-index: 1000;
 
   .nav--open & {
     transform: translateX(0);
