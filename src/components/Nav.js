@@ -19,6 +19,9 @@ export default function Nav(props) {
         </li>
         <NavSectionHeader>Face Masks</NavSectionHeader>
         <li>
+          <Link to="/why-hk-masks">Why HK Masks</Link>
+        </li>
+        <li>
           <Link to="/pattern-1">Pattern 1</Link>
         </li>
         <li>

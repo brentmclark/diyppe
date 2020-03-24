@@ -35,6 +35,9 @@ export default function App() {
             <Route path="/crowdsourcing-sheet">
               <CrowdsourcingSheet />
             </Route>
+            <Route path="/why-hk-masks">
+              <TweetEmbed id="1242287510144733184" />
+            </Route>
             <Route path="/pattern-1">
               <PatternOne />
             </Route>

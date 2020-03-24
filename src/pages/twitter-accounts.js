@@ -35,6 +35,14 @@ export default function TwitterAccounts(props) {
       >
         @joeltelling
       </a>
+      <br />
+      <a
+        href="https://twitter.com/PurpleOranji"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        @PurpleOranji
+      </a>
     </div>
   );
 }
